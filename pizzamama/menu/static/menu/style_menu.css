@@ -1,0 +1,65 @@
+:root{
+    --color1: #DD7835;
+}
+
+body{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/menu_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+  margin:0px ;
+  font-family: arial;
+  }
+  .menu_title{
+  margin-top: 45px;
+  margin-bottom: 50px;
+  }
+ h1 {
+ background-color: var(--color1);
+ display: inline;
+ padding: 8px 22px ;
+ }
+#small_logo{
+    margin-top: 25px;
+    margin-left: 35px;
+ }
+.menu_list{
+    margin-left: 30px;
+}
+.menu_list_item{
+margin: 30px 0;
+}
+.menu_list_title{
+font-weight: bold;
+font-size: 20px;
+display: inline-block;
+width: 350px;
+}
+.menu_list_price{
+color:var(--color1);
+font-size: 20px;
+margin-left: 8px;
+display: inline-block;
+text-align: right;
+width: 70px;
+
+}
+.menu_list_ingretident{
+font-size: 14px;
+color: #C8C8C8;
+display: block;
+margin-top: 4px;
+width: 350px;
+}
+.menu_list_vegeratienne{
+background-color: var(--color1);
+color: black;
+padding: 3px 8px;
+font-size: 10px;
+margin-top: 4px;
+display: inline-block;
+border-radius: 8px;
+font-weight: bold;
+}
