@@ -21,6 +21,16 @@ body{
  display: inline;
  padding: 8px 22px ;
  }
+a.back{
+    position: relative;
+    bottom: 10px;
+    display: inline-block;
+
+    color: var(--color1);
+    margin-left: 120px;
+    font-size: 18px;
+
+}
 #small_logo{
     margin-top: 25px;
     margin-left: 35px;
